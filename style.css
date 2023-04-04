@@ -1,6 +1,29 @@
-header {
+*{
+margin:0px ;
+padding: 0px;
+
+}
+
+.cabeçalho {
     background-color: #867070;
     color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-}
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo{
+    width: 150px;
+    height: 100px;
+
+  }
+  .lista {
+    background-color: #D5B4B4;
+    display: inline-block;
+    font-size: 30px;
+    padding: 50px;
+    
+    
+  }
